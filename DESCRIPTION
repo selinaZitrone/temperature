@@ -1,11 +1,14 @@
 Package: temperature
-Title: What the Package Does (One Line, Title Case)
+Title: Analyse Temperature Data From Berlin
 Version: 0.0.0.9000
 Authors@R: 
     person("Selina", "Baldauf", , "selina.baldauf@fu-berlin.de", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Analysis of the temperature data collected in Berlin from our
+        research project xyz presented in paper abc.
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
